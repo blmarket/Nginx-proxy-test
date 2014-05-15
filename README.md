@@ -30,7 +30,7 @@ Check response, and make some failure on some of upstream servers. and see clien
 
 ## Result
 
-with `proxy_next_upstream` directive, nginx does not send 5xx error for client. when there is working server.
+with `proxy_next_upstream` directive, nginx does not send 5xx error for client when there is at least one working server.
 
 ## What this mean with zero-timeout deployments?
 
